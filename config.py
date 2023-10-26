@@ -81,12 +81,17 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/monster10x>𝘼𝙙𝙢𝙞𝙣</a>
 """
 
-    PROGRESS_BAR = """<b>\n
+PROGRESS_BAR = """<b>
 ╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
 ┣⪼ 🗃️ Sɪᴢᴇ: {1} | {2}
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
-┣⪼ ⏰️ Eᴛᴀ: {4}
+┣⪼ ⏰ Eᴛᴀ: {4}
+┣⪼ ℹ️ Additional Info: {5}
+┣⪼ ℹ️ Another Detail: {6}
+┣⪼ 📁 File Name: {7}
+┣⪼ 📆 Date: {8}
 ╰━━━━━━━━━━━━━━━➣ </b>"""
+
 
 
