@@ -87,10 +87,6 @@ PROGRESS_BAR = """<b>
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ ⏰ Eᴛᴀ: {4}
-┣⪼ ℹ️ Additional Info: {5}
-┣⪼ ℹ️ Another Detail: {6}
-┣⪼ 📁 File Name: {7}
-┣⪼ 📆 Date: {8}
 ╰━━━━━━━━━━━━━━━➣ </b>"""
 
 
