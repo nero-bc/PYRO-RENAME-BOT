@@ -9,7 +9,7 @@ async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton("📽️ Movie Group 📓", url='https://t.me/filmyspot0')
+        InlineKeyboardButton("📽️ Movie Group 📽️", url='https://t.me/filmyspot0')
     ], [
         InlineKeyboardButton('📯 Updates', url='https://t.me/filmyspotupdate'),
         InlineKeyboardButton('💁‍♂️ Support', url='https://t.me/monster10x')
