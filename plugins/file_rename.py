@@ -10,7 +10,6 @@ async def rename_start(client, message):
 
     # Define your desired file size limit (e.g., 4GB in bytes)
     max_file_size = 4 * 1024 * 1024 * 1024  # 4GB in bytes
-
     if file.file_size > max_file_size:
         return await message.reply_text("Sorry, this bot doesn't support uploading files bigger than 4GB.")
 
