@@ -37,7 +37,7 @@ async def broadcast_handler(bot: Client, message: Message):
                 f"Failed: {failed}"
             )
 
-    completed_in = str(datetime.timedelta(seconds=int(time.time() - start_time))
+    
     await status_message.edit(
         f"Broadcast completed:\n\n"
         f"Completed in: {completed_in}\n\n"
