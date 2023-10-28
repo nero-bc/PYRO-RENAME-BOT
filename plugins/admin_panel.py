@@ -5,16 +5,7 @@ from helper.database import db
 import asyncio
 import datetime
 
-@Client.on_message(filters.command(["stats", "status"]) & filters.user(Config.ADMIN))
-async def get_stats(bot, message):
-    total_users = await db.total_users_count()
-    uptime = str(datetime.timedelta(seconds=int(time.time() - Config.BOT_UPTIME))
-    await message.reply(
-        f"**--Bot Status--**\n\n"
-        f"**Bot Uptime**: {uptime}\n"
-        f"**Current Ping**: {bot.ping}ms\n"
-        f"**Total Users**: {total_users}"
-    )
+# ... (existing code)
 
 # Add this new handler for broadcasting
 @Client.on_message(filters.command("broadcast") & filters.user(Config.ADMIN) & filters.reply)
